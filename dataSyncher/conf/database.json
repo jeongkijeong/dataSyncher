@@ -1,0 +1,26 @@
+[
+	{
+	  "datasource" :"DS1",
+	  "driver"     :"oracle.jdbc.driver.OracleDriver",
+	  "url"        :"jdbc:oracle:thin:@172.19.245.98:1523:NMSDEV",
+	  "username"   :"NRMOW",
+	  "password"   :"rntjdrhksfl",
+	  "minIdle"    :1,
+	  "maxIdle"    :1,
+	  "maxWait"    :1,
+	  "maxActive"  :2,
+	  "initialSize":2
+	},
+	{
+	  "datasource" :"DS2",
+	  "driver"     :"oracle.jdbc.driver.OracleDriver",
+	  "url"        :"jdbc:oracle:thin:@172.19.245.98:1523:NMSDEV",
+	  "username"   :"NRMOW",
+	  "password"   :"rntjdrhksfl",
+	  "minIdle"    :1,
+	  "maxIdle"    :1,
+	  "maxWait"    :1,
+	  "maxActive"  :2,
+	  "initialSize":2
+	}
+]
